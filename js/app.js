@@ -8,4 +8,9 @@
       mensagem += `${i} + ${tabuada} = ${i + tabuada} <br />`; // Calculo
       i++; // Soma 1 ao contador
     }
+  }else { // Caso contrário
+    while (i < 11) { // Enquanto o contador for menor que 11
+      mensagem += `${i} + ${tabuada} = ${i * tabuada} <br />`; // Calculo
+      i++; // Soma 1 ao contador
+    }
   }
