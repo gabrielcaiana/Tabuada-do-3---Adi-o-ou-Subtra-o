@@ -14,3 +14,7 @@
       i++; // Soma 1 ao contador
     }
   }
+
+  // Imprime a mensagem na página
+  let el = document.getElementById("blackboard");
+  el.innerHTML = mensagem;
